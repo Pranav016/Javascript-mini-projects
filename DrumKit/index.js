@@ -1,7 +1,18 @@
 var drums= document.querySelectorAll(".drum");
 
-function beat(char){
+//Button animation
 
+function buttonAnimation(char){
+    var buttonClicked=document.querySelector("."+char);
+    buttonClicked.classList.add("pressed");
+    setTimeout(function (){
+        buttonClicked.classList.remove("pressed");
+    } ,100);
+}
+
+//Beats method
+
+function beat(char){
     switch(char){
         case 'w':
             var audio= new Audio("sounds/tom-1.mp3");
@@ -34,6 +45,7 @@ function beat(char){
         default:
             console.log(data);
     }
+    buttonAnimation(char);
 }
 
 // For click event
@@ -48,5 +60,5 @@ for(var i=0; i<drums.length;i++){
 // For key press
 
 document.addEventListener("keydown",function (event){ 
-    beat(event.key)
+    beat(event.key);
 })

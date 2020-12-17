@@ -1,0 +1,13 @@
+body{
+    background-color: red;
+}
+
+button{
+    height: 1rem;
+    width: 2rem;
+    color: white;
+}
+
+button:hover{
+    color: violet;
+}

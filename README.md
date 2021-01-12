@@ -57,8 +57,31 @@ It is a digital drumset with images of all the instruments of a real drumset tha
     1. First, the players need to decide are they play against Simon or compete.
 
     2. Play proceeds as described in Game rules, except players take turns repeating Simon's signals.
-<br/>
 
 <h3><li>Mathematical Calculator:</li></h3>
 A calculator made using javascript with all the mathematical functions of addition, subtraction, multiplication, divison.
 
+
+## Environment Setup-
+
+- Drop a :star: on the Github repository.
+<br/>
+
+* Download code editor of choice.
+  - Recommended-
+    - [Download VS Code](https://code.visualstudio.com/download)
+    - [Download Sublime text](https://www.sublimetext.com/3)
+<br/>
+
+- For VS Code, some recommended extensions-
+    - Live Server
+    - Intellisense for CSS
+    - Prettier
+<br/>
+
+- Clone the repository by running command in your git bash/ terminal.
+```
+git clone https://github.com/Pranav016/Javascript-mini-projects.git
+```
+
+- Now you are all set to use this repository.
